@@ -3,6 +3,8 @@ let maskImg=null;
 let renderCounter=0;
 
 // change these three lines as appropiate
+// let sourceFile = "input_6.jpg";
+// let maskFile   = "mask_6.jpg";
 let sourceFile = "input_1.jpg";
 let maskFile   = "mask_1.jpg";
 let outputFile = "output_1.jpg";
