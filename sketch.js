@@ -3,10 +3,10 @@ let maskImg=null;
 let renderCounter=0;
 
 // change these three lines as appropiate
-let sourceFile = "input_6.jpg";
-let maskFile   = "mask_6.jpg";
-// let sourceFile = "input_1.jpg";
-// let maskFile   = "mask_1.jpg";
+// let sourceFile = "input_6.jpg";
+// let maskFile   = "mask_6.jpg";
+let sourceFile = "input_2.jpg";
+let maskFile   = "mask_2.jpg";
 let outputFile = "output_1.jpg";
 
 function preload() {
@@ -20,9 +20,10 @@ function setup () {
 
   // imageMode(CENTER);
   noStroke();
-  // background(255, 227, 150); //goldenyellow
+  background(255, 227, 150); //goldenyellow
   // background(104, 233, 252); //lightelectricblue
-  background(200, 200, 200); //white
+  // background(200, 200, 200); //lightgrey 
+
   // image(sourceImg, 0, 0, width, height);
   sourceImg.loadPixels();
   maskImg.loadPixels();
