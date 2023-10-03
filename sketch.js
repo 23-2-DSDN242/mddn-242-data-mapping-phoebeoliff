@@ -5,8 +5,8 @@ let renderCounter=0;
 // change these three lines as appropiate
 // let sourceFile = "input_6.jpg";
 // let maskFile   = "mask_6.jpg";
-let sourceFile = "input_2.jpg";
-let maskFile   = "mask_2.jpg";
+let sourceFile = "input_3.jpg";
+let maskFile   = "mask_3.jpg";
 let outputFile = "output_1.jpg";
 
 function preload() {
@@ -20,9 +20,9 @@ function setup () {
 
   // imageMode(CENTER);
   noStroke();
-  background(255, 227, 150); //goldenyellow
+  // background(255, 227, 150); //goldenyellow
   // background(104, 233, 252); //lightelectricblue
-  // background(200, 200, 200); //lightgrey 
+  background(200, 200, 200); //lightgrey 
 
   // image(sourceImg, 0, 0, width, height);
   sourceImg.loadPixels();
@@ -30,7 +30,7 @@ function setup () {
 }
 
 function draw () {
-  for(let i=0;i<10000;i++) {
+  for(let i=0;i<15000;i++) {
     let x = floor(random(sourceImg.width));
     let y = floor(random(sourceImg.height));
     let pix = sourceImg.get(x, y);
@@ -45,19 +45,21 @@ function draw () {
       let pointSize = 10;
       fill(pix); 
     
-      rect(x, y, pointSize, pointSize);
-      // strokeWeight(6); 
-      // line(x-10, y, x+10, y);
+      // rect(x, y, pointSize, pointSize);
+      strokeWeight(5); 
+      line(x-5, y+5, x+5, y-5);
     }
     else {
       // pix[0] = 0;
       // pix[2] = 0;
       // fill(pix); 
       // fill(pix);
-      // let pointSize = 10;
-      // rect(x, y, pointSize, pointSize);  
-      strokeWeight(2); 
-      line(x-10, y-10, x+10, y+10);
+      let pointSize = 3;
+      rect(x, y, pointSize, pointSize);  
+      
+      // strokeWeight(2); 
+      // line(x-10, y-10, x+10, y+10);
+  
     }
 
   }
@@ -66,7 +68,7 @@ function draw () {
     console.log("Done!")
     noLoop();
     // uncomment this to save the result
-    // saveArtworkImage(outputFile);
+    saveArtworkImage(outputFile);
   }
 }
 
