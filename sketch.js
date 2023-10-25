@@ -56,6 +56,7 @@ function draw () {
       strokeWeight(2); 
   
       line(x-10, y+10, x+10, y-10);
+      // line(x+15, y-15, x-15, y+15); //crosshatch line
    
     }
     else {
@@ -66,9 +67,9 @@ function draw () {
       // let pointSize = 3;--
       // rect(x, y, pointSize, pointSize);  --
       
-      strokeWeight(5); 
+      strokeWeight(2); 
       line(x-5, y-5, x+5, y+5);
-   
+      line(x+5, y-5, x-5, y+5); //crosshatch line 
     }
 
   }
