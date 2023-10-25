@@ -16,7 +16,7 @@ I experimented with coding different shapes to see what could recreate a classic
 
 I found the AI training interesting as my masks turned out quite deatiled and possibly more so than my initial masks created in photoshop. I added in a photo of just my dog on the beach to see if it would still detect his sillouette and it turned out amazing. 
 
-For my final treatment, I replicated a simple cross-hatch using two intersecting lines outside of my mask as I found having both the figures in the mask and the background having the same treatment was very visually crowded and overwhelming. I used thin lines for the pixels inside the mask to replicate broad strokes diagonally across the figure which creates a rich blend of the colours but still stands out from the noise in the background. 
+For my final pixel treatment, I replicated a simple cross-hatch using two intersecting lines outside of my mask as I found having both the figures in the mask and the background having the same treatment was very visually crowded and overwhelming. I used thin lines for the pixels inside the mask to replicate broad strokes diagonally across the figure which creates a rich blend of the colours but still stands out from the noise in the background. 
 
 If I had more time, I would have loved to experiment more with an extra treatment for the drop shadows of the figures and experimented more with the RGB values to get more saturated colour from the images. I would have also loved to apply more accesibility principles to the treatment and look more into that as that is somehting I want to practice in my work more especially as I enter my last year. 
 
