@@ -14,7 +14,7 @@ I initially started using a collection of photos of ducks in a lake, but I decid
 
 I experimented with coding different shapes to see what could recreate a classic impressionism painting, this proved to be difficult as I was not wrapping my head around layering to get the natural arcs and crosses I wanted. After futher research, I had the idea to turn to a cross-hatch technique as it was used by artists and craftsmen to create the effect of blending on harder surfaces such as wood carving. I also experimented with the texture layer overlay shown in class by using a jackson pollock painting, but I did not like the look of the outcome so I went back to only working with the original image. 
 
-I found the AI training interesting as my masks turned out very well and possibly more detailed than my initial masks created in photoshop. I added in a photo of just my dog on the beach to see if it would still detect his sillouette and it worked out very well. 
+I found the AI training interesting as my masks turned out quite deatiled and possibly more so than my initial masks created in photoshop. I added in a photo of just my dog on the beach to see if it would still detect his sillouette and it turned out amazing. 
 
 For my final treatment, I replicated a simple cross-hatch using two intersecting lines outside of my mask as I found having both the figures in the mask and the background having the same treatment was very visually crowded and overwhelming. I used thin lines for the pixels inside the mask to replicate broad strokes diagonally across the figure which creates a rich blend of the colours but still stands out from the noise in the background. 
 
