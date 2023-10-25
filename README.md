@@ -4,8 +4,8 @@
 
 The images above are photos of Wellington CBD algorithmically processed with a lightly modified version of the [p5.js Pointillism example](https://p5js.org/examples/image-pointillism.html). The masks for each photo highlight various objects. Replace this text with your own which explains the source of your photos, masking, and applied algorithm.
 
------------------------------Cross Strokes----------------------------------
-                             Phoebe Oliff
+
+Cross Strokes - Phoebe Oliff
 
 
 I used photos I took this year in January while visiting my family in the South Island, which mostly consisted of nature photography. After looking at example precedents from class, I decided I wanted to try recreate some classic painting/drawing techniques to see how the program would interpret and display them and how natural or unatural I could make the 'strokes' look.
