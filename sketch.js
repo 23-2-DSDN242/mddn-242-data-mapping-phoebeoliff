@@ -3,10 +3,10 @@ let maskImg=null;
 let renderCounter=0;
 
 // change these three lines as appropiate
-// let sourceFile = "input_6.jpg";
-// let maskFile   = "mask_6.jpg";
-let sourceFile = "input_3.jpg";
-let maskFile   = "mask_3.jpg";
+let sourceFile = "input_6.jpg";
+let maskFile   = "mask_6.jpg";
+// let sourceFile = "input_3.jpg";
+// let maskFile   = "mask_3.jpg";
 let outputFile = "output_1.jpg";
 
 function preload() {
@@ -30,7 +30,8 @@ function setup () {
 }
 
 function draw () {
-  for(let i=0;i<15000;i++) {
+  //MY CODE HERE ----------------------------------
+  for(let i=0;i<25000;i++) {
     let x = floor(random(sourceImg.width));
     let y = floor(random(sourceImg.height));
     let pix = sourceImg.get(x, y);
@@ -47,6 +48,7 @@ function draw () {
     
       // rect(x, y, pointSize, pointSize);
       strokeWeight(5); 
+  
       line(x-5, y+5, x+5, y-5);
     }
     else {
@@ -54,11 +56,11 @@ function draw () {
       // pix[2] = 0;
       // fill(pix); 
       // fill(pix);
-      let pointSize = 3;
-      rect(x, y, pointSize, pointSize);  
+      // let pointSize = 3;
+      // rect(x, y, pointSize, pointSize);  
       
-      // strokeWeight(2); 
-      // line(x-10, y-10, x+10, y+10);
+      strokeWeight(2); 
+      line(x-5, y-5, x+5, y+5);
   
     }
 
